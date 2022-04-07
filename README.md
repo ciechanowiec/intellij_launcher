@@ -9,8 +9,8 @@
 6. [License](#License)
 
 ## Basic Info
-This program is a Shell script for Linux Ubuntu. Its purpose is to
-provide an easy-to-use tool to launch IntelliJ IDEA from terminal.
+This program is a Shell script for Linux Ubuntu. Its purpose is to provide
+an easy-to-use and convenient tool to launch IntelliJ IDEA from terminal.
 | Parameter                   | Data                                             |
 | :-------------------------: | :----------------------------------------------: |
 | Program name:               | IntelliJ IDEA Terminal Launcher                  |
@@ -21,12 +21,13 @@ provide an easy-to-use tool to launch IntelliJ IDEA from terminal.
 
 ## Functionalities
 The script has the following features:
-1. Simple and fast launch of IntelliJ IDEA using short terminal command.
-2. No output by IntelliJ IDEA to the terminal after IntelliJ IDEA is launched. The terminal remains clean.
-3. After IntelliJ IDEA is launched, the terminal isn't blocked and can accept new commands.
-4. Closure of the terminal doesn't cause the closure of IntelliJ IDEA.
-5. Suppressing of splash screen when loading IntelliJ IDEA.
-6. Handling invalid launch.
+1. Simple and fast launch of IntelliJ IDEA using short terminal command (`idea`).
+2. A folder can be passed to the command.
+3. No output by IntelliJ IDEA to the terminal after IntelliJ IDEA is launched. The terminal remains clean.
+4. After IntelliJ IDEA is launched, the terminal isn't blocked and can accept new commands.
+5. Closure of the terminal doesn't cause the closure of IntelliJ IDEA.
+6. Suppressing of splash screen when loading IntelliJ IDEA.
+7. Handling invalid launch.
 
 ## Script's Algorithm
 The script is executed according to the following algorithm:
