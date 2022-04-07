@@ -10,7 +10,7 @@
 
 ## Basic Info
 This program is a Shell script for Linux Ubuntu. Its purpose is to provide
-an easy-to-use and convenient tool to launch IntelliJ IDEA from terminal.
+an easy-to-use and convenient tool to launch IntelliJ IDEA from a terminal.
 | Parameter                   | Data                                             |
 | :-------------------------: | :----------------------------------------------: |
 | Program name:               | IntelliJ IDEA Terminal Launcher                  |
