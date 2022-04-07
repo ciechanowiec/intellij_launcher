@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # @author Herman Ciechanowiec, herman@ciechanowiec.eu
-# This program is a Shell script for Linux Ubuntu. Its purpose is to provide
-# an advanced but simple tool to launch IntelliJ IDEA from terminal.
+# This program is a Shell script for Linux Ubuntu. Its purpose is to
+# provide an easy-to-use tool to launch IntelliJ IDEA from terminal.
 # For more information checkout https://github.com/ciechanowiec/intellij_launcher
 
 # ============================================== #

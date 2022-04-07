@@ -9,8 +9,8 @@
 6. [License](#License)
 
 ## Basic Info
-This program is a Shell script for Linux Ubuntu. Its purpose is to provide 
-an easy-to-use and convenient tool to launch IntelliJ IDEA from terminal.
+This program is a Shell script for Linux Ubuntu. Its purpose is to
+provide an easy-to-use tool to launch IntelliJ IDEA from terminal.
 | Parameter                   | Data                                             |
 | :-------------------------: | :----------------------------------------------: |
 | Program name:               | IntelliJ IDEA Terminal Launcher                  |
@@ -22,8 +22,8 @@ an easy-to-use and convenient tool to launch IntelliJ IDEA from terminal.
 ## Functionalities
 The script has the following features:
 1. Simple and fast launch of IntelliJ IDEA using short terminal command.
-2. No output by IntelliJ IDEA to the terminal after the IntelliJ IDEAit is launched. The terminal remains clean.
-3. After IntelliJ IDEA launching, the terminal isn't blocked and can accept new commands.
+2. No output by IntelliJ IDEA to the terminal after IntelliJ IDEA is launched. The terminal remains clean.
+3. After IntelliJ IDEA is launched, the terminal isn't blocked and can accept new commands.
 4. Closure of the terminal doesn't cause the closure of IntelliJ IDEA.
 5. Suppressing of splash screen when loading IntelliJ IDEA.
 6. Handling invalid launch.
@@ -38,7 +38,7 @@ The script is executed according to the following algorithm:
 ## How to Use
 To use the script complete the following steps:
 1. Put the script file (`.launcher.sh`) to the home folder so that its path will be `~/.launcher.sh`
-2. Give the script the permission to be run (`chmod 755 ~/.launcher.sh`).
+2. Give the script a permission to be run (`chmod 755 ~/.launcher.sh`).
 3. Set up the following alias for the terminal (on Linux Ubuntu aliases are usually specified in the hidden file `~/.bashrc`):<br>
 `alias idea='~/.launcher.sh'`
 4. Now the IntelliJ IDEA Terminal Launcher can be run by invoking the `idea` command.
