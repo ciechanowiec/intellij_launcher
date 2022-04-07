@@ -1,3 +1,16 @@
+#!/bin/bash
+
+# @author Herman Ciechanowiec, herman@ciechanowiec.eu
+# This program is a Shell script for Linux Ubuntu. Its purpose is to provide
+# an advanced but simple tool to launch IntelliJ IDEA from terminal.
+# For more information checkout https://github.com/ciechanowiec/intellij_launcher
+
+# ============================================== #
+#                                                #
+#                   FUNCTIONS                    #
+#                                                #
+# ============================================== #
+
 verifyIfLauncherExists () {
 launcherPath=/snap/intellij-idea-community/current/bin/idea.sh
 	if [ ! -f $launcherPath ]
@@ -42,6 +55,12 @@ idea() {
 
 	fi
 }
+
+# ============================================== #
+#                                                #
+#                  DRIVER CODE                   #
+#                                                #
+# ============================================== #
 
 verifyIfLauncherExists
 verifyIfZeroOrOneArgument $@
