@@ -32,7 +32,7 @@ The script has the following features:
 ## Script's Algorithm
 The script is executed according to the following algorithm:
 1. Check whether a native IntelliJ IDEA launcher exists (_/snap/intellij-idea-community/current/bin/idea.sh_).
-2. Check whether the command was provided with zero or exactly one argument which is the path to the existing folder. In the first case IntelliJ IDEA will be opened for the current folder and in the second case it will be opened for the folder specified by a user.
+2. Check whether the command was provided with zero or exactly one argument without whitespaces which is the path to the existing folder. In the first case IntelliJ IDEA will be opened for the current folder and in the second case it will be opened for the folder specified by a user.
 3. Check whether the provided by a user path to the folder for which IntelliJ IDEA should be opened does exist.
 4. Launch IntelliJ IDEA.
 
