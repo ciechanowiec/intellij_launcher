@@ -23,7 +23,7 @@ launcherPath=/snap/intellij-idea-community/current/bin/idea.sh
 verifyIfZeroOrOneArgument () {
 	if [ $# != 0 ] && [ $# != 1 ] 
 	then
-		printf "\e[1;91m[ERROR]:\e[0m The command should be provided with zero or exactly one argument which is the path to the existing folder. In the first case IntelliJ IDEA will be opened for the current folder and in the second case it will be opened for the folder specified by a user.\n\n"
+		printf "\e[1;91m[ERROR]:\e[0m The command should be provided with zero or exactly one argument without whitespaces which is the path to the existing folder. In the first case IntelliJ IDEA will be opened for the current folder and in the second case it will be opened for the folder specified by a user.\n\n"
 		exit
 	fi
 }
