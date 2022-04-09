@@ -43,6 +43,7 @@ To use the script complete the following steps:
 3. Give the script a permission to be run (`chmod 755 ~/.launcher.sh`).
 4. Set up the following alias for the terminal (on Linux Ubuntu aliases are usually specified in the hidden file `~/.bashrc`):<br>
 `alias idea='~/.launcher.sh'`
+4. Restart all instances of the terminal.
 5. Now the IntelliJ IDEA Terminal Launcher can be run by invoking the `idea` command.
 
 ## Screenshots
