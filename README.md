@@ -31,20 +31,21 @@ The script has the following features:
 
 ## Script's Algorithm
 The script is executed according to the following algorithm:
-1. Check whether a native IntelliJ IDEA launcher exists (_/snap/intellij-idea-community/current/bin/idea.sh_).
+1. Check whether a native IntelliJ IDEA launcher exists (_/snap/intellij-idea-community/current/bin/idea.sh_ or _/snap/intellij-idea-ultimate/current/bin/idea.sh_, depending on the settings).
 2. Check whether the command was provided with zero or exactly one argument without whitespaces which is the path to the existing folder. In the first case IntelliJ IDEA will be opened for the current folder and in the second case it will be opened for the folder specified by a user.
 3. Check whether the provided by a user path to the folder for which IntelliJ IDEA should be opened does exist.
 4. Launch IntelliJ IDEA.
 
 ## How to Use
 To use the script complete the following steps:
-1. The script requires IntelliJ IDEA Community installed and its native launcher `/snap/intellij-idea-community/current/bin/idea.sh`.
-2. Put the script file (`.launcher.sh`) to the home folder so that its path will be `~/.launcher.sh`
-3. Give the script a permission to be run (`chmod 755 ~/.launcher.sh`).
-4. Set up the following alias for the terminal (on Linux Ubuntu aliases are usually specified in the hidden file `~/.bashrc`):<br>
+1. The script can be used with IntelliJ IDEA Community and IntelliJ IDEA Ultimate. Fo that reason it requires a native launcher of one of those applications (`/snap/intellij-idea-community/current/bin/idea.sh` or `/snap/intellij-idea-ultimate/current/bin/idea.sh`).
+2. By default, the script is set to run with IntelliJ IDEA Ultimate. To set it to run with IntelliJ IDEA Community, restore from the comments in the script the lines containing references to _intellij-idea-community_ and comment out the lines containing references to _intellij-idea-ultimate_.
+3. Put the script file (`.launcher.sh`) to the home folder so that its path will be `~/.launcher.sh`
+4. Give the script a permission to be run (`chmod 755 ~/.launcher.sh`).
+5. Set up the following alias for the terminal (on Linux Ubuntu aliases are usually specified in the hidden file `~/.bashrc`):<br>
 `alias idea='~/.launcher.sh'`
-4. Restart all instances of the terminal.
-5. Now the IntelliJ IDEA Terminal Launcher can be run by invoking the `idea` command.
+6. Restart all instances of the terminal.
+7. Now the IntelliJ IDEA Terminal Launcher can be run by invoking the `idea` command.
 
 ## Screenshots
 <kbd><img src="presentation/1.png"></kbd><br/>
