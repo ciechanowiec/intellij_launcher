@@ -41,17 +41,13 @@ verifyIfGivenDirectoryExists () {
 idea() {
 	if [ $# = 0 ] 
 	then	
-		# nohup /snap/intellij-idea-community/current/bin/idea.sh nosplash . 2>/dev/null &
-    nohup /snap/intellij-idea-ultimate/current/bin/idea.sh nosplash . 2>/dev/null &
-		# can be replaced by:
-		# nohup intellij-idea-community nosplash . > /dev/null 2>&1 &
+		# nohup /snap/intellij-idea-community/current/bin/idea.sh nosplash . > /dev/null 2>&1 &
+    nohup /snap/intellij-idea-ultimate/current/bin/idea.sh nosplash . > /dev/null 2>&1 &	
 	elif [ $# = 1 ]
 	then
 		specifiedFolder=$1
-		# nohup /snap/intellij-idea-community/current/bin/idea.sh nosplash $specifiedFolder 2>/dev/null &
-		nohup /snap/intellij-idea-ultimate/current/bin/idea.sh nosplash $specifiedFolder 2>/dev/null &
-		# can be replaced by:
-		# nohup intellij-idea-community nosplash $specifiedFolder > /dev/null 2>&1 &
+		# nohup /snap/intellij-idea-community/current/bin/idea.sh nosplash $specifiedFolder > /dev/null 2>&1 &
+		nohup /snap/intellij-idea-ultimate/current/bin/idea.sh nosplash $specifiedFolder > /dev/null 2>&1 &		
 	else
 		echo "\e[1;91m[ERROR]:\e[0m Unknown problem occurred. The script has stopped.\n\n"
 		exit
